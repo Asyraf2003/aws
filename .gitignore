@@ -1,27 +1,4 @@
-# ===============================================
-# GIT IGNORE FILE - Proyek Pembelajaran AWS dan Hosting
-# Pastikan semua kredensial dan konfigurasi sensitif terhindar dari commit.
-# ===============================================
-
-# 1. Folder Rahasia / Konfigurasi Privat
-# Folder ini berisi kunci, script deployment dengan kredensial, dan konfigurasi API.
-# Seluruh isinya akan diabaikan oleh Git.
 /private/
-
-# 2. File Lingkungan dan Kunci
-# Jangan pernah unggah file environment variables (.env) atau file kunci.
-*.env
-*.pem
-*.key
-
-# 3. File Konfigurasi Terraform/CloudFormation (Jika digunakan)
-# File ini sering berisi output sensitif atau variabel deployment.
-*.tfvars
-*.tfstate
-*.tfstate.backup
-
-# 4. Log dan Cache (Umum)
-# File log yang mungkin berisi detail eksekusi sensitif.
 *.log
 /node_modules/
 /vendor/
