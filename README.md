@@ -19,7 +19,7 @@ Repository ini dibagi menjadi dua bagian utama untuk memisahkan catatan belajar 
 | Folder | Status | Deskripsi Konten |
 | :--- | :--- | :--- |
 | **`public/`** | ✅ **Publik** | Berisi semua catatan belajar, konsep teori, *code snippets* yang aman, dan dokumentasi arsitektur umum. |
-| **`rahasia/`** | 🔒 **Privat** | **Folder ini diabaikan oleh `.gitignore`**. Berisi kredensial, kunci API, file `.env`, *script* deployment dengan data sensitif, dan konfigurasi *private*. |
+| **`private/`** | 🔒 **Private** | **Folder ini diabaikan oleh `.gitignore`**. Berisi kredensial, kunci API, file `.env`, *script* deployment dengan data sensitif, dan konfigurasi *private*. |
 
 ---
 
