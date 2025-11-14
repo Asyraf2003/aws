@@ -21,7 +21,7 @@ Repository ini dibagi menjadi dua bagian utama untuk memisahkan catatan belajar 
 | **`public/`** | ✅ **Publik** | Berisi semua catatan belajar, konsep teori, *code snippets* yang aman, dan dokumentasi arsitektur umum. |
 | **`private/`** | 🔒 **Private** | **Folder ini diabaikan oleh `.gitignore`**. Berisi kredensial, kunci API, file `.env`, *script* deployment dengan data sensitif, dan konfigurasi *private*. |
 
----
+<!-- ---
 
 ## 📚 Catatan Pembelajaran (Folder `/public/`)
 
@@ -50,7 +50,7 @@ Berikut adalah daftar topik dan modul yang sedang/telah dipelajari.
 *   [ ] Tahap 4: Konfigurasi Otomasi Deployment (CI/CD)
 *   [ ] Tahap 5: Testing Skalabilitas dan Keamanan
 
----
+--- -->
 
 ## 🤝 Kontribusi
 
